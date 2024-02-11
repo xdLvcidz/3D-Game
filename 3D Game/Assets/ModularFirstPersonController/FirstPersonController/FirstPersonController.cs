@@ -160,6 +160,7 @@ public class FirstPersonController : MonoBehaviour
         {
             crosshairObject.sprite = crosshairImage;
             crosshairObject.color = crosshairColor;
+            crosshairObject.rectTransform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         }
         else
         {
